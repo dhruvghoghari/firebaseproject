@@ -33,9 +33,7 @@ class _AddProductState extends State<AddProduct> {
               width: MediaQuery.of(context).size.width,
               height: MediaQuery.of(context).size.height,
               color: Colors.grey.shade100,
-              child: (isloading==true)?Center(
-                child: CircularProgressIndicator(),
-              ):SingleChildScrollView(
+              child: (isloading==true)?Center(child: CircularProgressIndicator(),):SingleChildScrollView(
                 child: Padding(
                   padding: const EdgeInsets.all(20.0),
                   child: Column(

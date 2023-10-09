@@ -3,6 +3,7 @@ import 'package:firebaseproject/EditEmploye.dart';
 import 'package:flutter/material.dart';
 import 'AddEmploye.dart';
 import 'Addproduct.dart';
+import 'GoogleMapExample.dart';
 import 'HomeScreen.dart';
 import 'ViewProduct.dart';
 import 'firebase_options.dart';
@@ -12,7 +13,6 @@ void main()  async{
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-
   runApp(const MyApp());
 }
 
@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
         useMaterial3: true,
       ),
-      home:  HomeScreen(),
+      home: GoogleMapExample(),
     );
   }
 }
