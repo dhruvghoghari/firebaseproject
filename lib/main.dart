@@ -1,9 +1,12 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebaseproject/EditEmploye.dart';
+// import 'package:firebaseproject/animation/FirstScreen.dart';
 import 'package:flutter/material.dart';
 import 'AddEmploye.dart';
 import 'Addproduct.dart';
-import 'GoogleMapExample.dart';
+import 'GoogleAdsExample.dart';
+import 'googlemap/CurrentLocationScreen.dart';
+import 'googlemap/GoogleMapExample.dart';
 import 'HomeScreen.dart';
 import 'ViewProduct.dart';
 import 'firebase_options.dart';
@@ -15,7 +18,6 @@ void main()  async{
   );
   runApp(const MyApp());
 }
-
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -25,11 +27,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
         useMaterial3: true,
       ),
-      home: GoogleMapExample(),
+      home: GoogleAdsExample(),
     );
   }
 }

@@ -1,6 +1,6 @@
 import 'package:firebaseproject/AddEmploye.dart';
 import 'package:firebaseproject/Addproduct.dart';
-import 'package:firebaseproject/GoogleMapExample.dart';
+import 'package:firebaseproject/googlemap/GoogleMapExample.dart';
 import 'package:firebaseproject/OnlinePayment.dart';
 import 'package:firebaseproject/ViewEmploye.dart';
 import 'package:firebaseproject/ViewProduct.dart';

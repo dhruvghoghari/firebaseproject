@@ -45,6 +45,9 @@ dependencies:
   uuid:
   razorpay_flutter:
   google_maps_flutter:
+  geolocator:
+  geocoding:
+  google_mobile_ads:
 
 
 dev_dependencies:
