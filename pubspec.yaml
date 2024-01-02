@@ -48,6 +48,7 @@ dependencies:
   geolocator:
   geocoding:
   google_mobile_ads:
+  http:
 
 
 dev_dependencies:

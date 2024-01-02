@@ -1,7 +1,7 @@
 import 'package:firebaseproject/AddEmploye.dart';
 import 'package:firebaseproject/Addproduct.dart';
 import 'package:firebaseproject/googlemap/GoogleMapExample.dart';
-import 'package:firebaseproject/OnlinePayment.dart';
+import 'package:firebaseproject/Payment_Razerpay/OnlinePayment.dart';
 import 'package:firebaseproject/ViewEmploye.dart';
 import 'package:firebaseproject/ViewProduct.dart';
 import 'package:flutter/material.dart';

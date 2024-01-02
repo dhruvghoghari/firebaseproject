@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
-import 'resources/AdResources.dart';
+import '../resources/AdResources.dart';
 
 class GoogleAdsExample extends StatefulWidget {
   @override
@@ -200,8 +200,6 @@ class _GoogleAdsExampleState extends State<GoogleAdsExample> {
               }, child: Text("Rewarded"))
             ],
           ),
-
-
         ],
       ),
     );

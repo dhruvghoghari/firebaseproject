@@ -1,10 +1,11 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebaseproject/EditEmploye.dart';
+import 'package:firebaseproject/googleads/ViewProducts.dart';
 // import 'package:firebaseproject/animation/FirstScreen.dart';
 import 'package:flutter/material.dart';
 import 'AddEmploye.dart';
 import 'Addproduct.dart';
-import 'GoogleAdsExample.dart';
+import 'googleads/GoogleAdsExample.dart';
 import 'googlemap/CurrentLocationScreen.dart';
 import 'googlemap/GoogleMapExample.dart';
 import 'HomeScreen.dart';
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
         useMaterial3: true,
       ),
-      home: GoogleAdsExample(),
+      home: HomeScreen(),
     );
   }
 }

@@ -1,10 +1,8 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-
 import 'EditProduct.dart';
 
 class ViewProduct extends StatefulWidget {
-  const ViewProduct({Key? key}) : super(key: key);
 
   @override
   State<ViewProduct> createState() => _ViewProductState();
